@@ -19,6 +19,7 @@ body {
   width: 1000px;
   margin: 0px auto;
   border-radius: 3px;
+  background: #3f3f41;
 }
 .wrap .left {
   width: 300px;
@@ -88,7 +89,7 @@ body {
   font-size: 14px;
 }
 .wrap .right {
-  width: 680px;
+  width: 700px;
   min-height: 100vh;
   float: left;
   box-sizing: border-box;
