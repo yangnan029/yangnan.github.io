@@ -154,3 +154,167 @@ body {
   left: -13px;
   top: 3px;
 }
+@media screen and (max-width: 414px) {
+  .wrap {
+    width: 100%;
+    margin: 0px;
+    border-radius: 3px;
+    background: #3f3f41;
+  }
+  .wrap .left {
+    background: #3f3f41;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .wrap .left .user {
+    border-radius: 6px;
+    width: 140px;
+    height: 160px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px 3px transparent;
+    overflow: hidden;
+  }
+  .wrap .left .user img {
+    width: 100%;
+  }
+  .wrap .left h3 {
+    background: #5698c7;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 1rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-sizing: border-box;
+  }
+  .wrap .left .info {
+    padding-left: 3rem;
+    line-height: 2rem;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .wrap .left .info.school {
+    background: url('../images/school.png') no-repeat;
+    background-size: 1.2rem 1.2rem;
+    background-position: 1rem 5px;
+  }
+  .wrap .left .info.career {
+    background: url('../images/career.png') no-repeat;
+    background-size: 1.2rem 1.2rem;
+    background-position: 1rem 5px;
+  }
+  .wrap .left .info.adress {
+    background: url('../images/adress.png') no-repeat;
+    background-size: 1.2rem 1.2rem;
+    background-position: 1rem 5px;
+  }
+  .wrap .left .info.phone {
+    background: url('../images/phone.png') no-repeat;
+    background-size: 1.2rem 1.2rem;
+    background-position: 1rem 5px;
+  }
+  .wrap .left .info.email {
+    background: url('../images/email.png') no-repeat;
+    background-size: 1.2rem 1.2rem;
+    background-position: 1rem 5px;
+  }
+  .wrap .left li {
+    padding-left: 1.2rem;
+    line-height: 2rem;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .wrap .right {
+    padding: 0;
+    padding-top: 1rem;
+    background: #f6f6f6;
+    width: 100%;
+  }
+  .wrap .right h2 {
+    font-size: 20px;
+    color: #000000;
+    display: none;
+  }
+  .wrap .right p {
+    line-height: 1.5rem;
+    font-size: .8rem;
+    color: #808080;
+    display: none;
+  }
+  .wrap .right h3 {
+    background: #5698c7;
+    font-weight: bold;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: .5rem;
+    box-sizing: border-box;
+  }
+  .wrap .right .experience {
+    position: relative;
+  }
+  .wrap .right .experience .vertical {
+    width: 3px;
+    height: 100%;
+    background: #ddd;
+    position: absolute;
+    left: 10px;
+    top: 0;
+  }
+  .wrap .right .experience .items {
+    padding-left: 3rem;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 2rem;
+  }
+  .wrap .right .experience .items p {
+    display: block;
+  }
+  .wrap .right .experience .items .title {
+    color: #000;
+    font-size: 14px;
+  }
+  .wrap .right .experience .items .title a {
+    color: #5698c7;
+    text-decoration: none;
+  }
+  .wrap .right .experience .items .title a:hover {
+    text-decoration: underline;
+  }
+  .wrap .right .experience .items time {
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    color: #666;
+  }
+  .wrap .right .experience .items time:before {
+    content: ' ';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #5698c7;
+    position: absolute;
+    left: -13px;
+    top: 3px;
+  }
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 16px;
+  }
+}
